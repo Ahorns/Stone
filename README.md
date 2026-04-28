@@ -39,8 +39,9 @@ SimAgents/
 │   │   ├── home-anim-transparent.webm     Waymo homepage animation (optional)
 │   │   ├── waymo-logo.svg                 Waymo Open Dataset wordmark
 │   │   └── processed/                     PNG / recoloured versions ready for PowerPoint
-│   ├── dist/              Build outputs **PPT在这里**
+│   ├── dist/              Build outputs PPT在这里！
 │   │   ├── WOSAC_Research_Plan.pptx
+│   │   ├── WOSAC_Research_Plan2.pptx
 │   │   └── WOSAC_Research_Plan.pdf
 │   └── qa/                Slide thumbnails (slide-01.jpg … slide-16.jpg) for visual review
 │
