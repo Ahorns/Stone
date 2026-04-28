@@ -2,7 +2,7 @@
 
 ## 更新
 1. 更新了Phase1的代码
-2. 更新了一下PPT,加了一页有关Phase1-step2的结果,你可以和老师说,你现在就正在做这一步,学习waymo官方给的tutorial.
+2. 更新了一下PPT,加了一页有关Phase1-step2的结果,你可以和老师说,你现在就正在做这一步,学习waymo官方给的tutorial，当然也可以不说，那就用第一版。
 
 ## Suggestions:
 
