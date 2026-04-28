@@ -1,0 +1,46 @@
+{
+  "shard": "/home/uceems7/Darwin/waymo/data/validation.tfrecord-00000-of-00150",
+  "limit": null,
+  "n_scenarios_total": 286,
+  "n_scenarios_skipped": 0,
+  "elapsed_seconds": 3079.9,
+  "use_history": true,
+  "train": {
+    "n_scenarios": 229,
+    "n_samples": 533590,
+    "agent_type_counts": {
+      "1": 499129,
+      "2": 30547,
+      "3": 3914
+    },
+    "target_mean": [
+      0.26832860708236694,
+      0.00042836388456635177,
+      0.0002444630372337997
+    ],
+    "target_std": [
+      0.4862585663795471,
+      0.017874613404273987,
+      0.08186139911413193
+    ]
+  },
+  "val": {
+    "n_scenarios": 57,
+    "n_samples": 137104,
+    "agent_type_counts": {
+      "1": 130980,
+      "2": 5367,
+      "3": 757
+    },
+    "target_mean": [
+      0.2462417036294937,
+      0.000258022453635931,
+      2.7201278953725705e-06
+    ],
+    "target_std": [
+      0.49766042828559875,
+      0.015713339671492577,
+      0.07427468150854111
+    ]
+  }
+}

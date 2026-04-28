@@ -1,0 +1,13 @@
+{
+  "started": "2026-04-28 23:07:44",
+  "shard": "/home/uceems7/Darwin/waymo/data/validation.tfrecord-00000-of-00150",
+  "baselines": [
+    "log_replay",
+    "constant_velocity",
+    "learned"
+  ],
+  "total": 5,
+  "done": 5,
+  "elapsed_seconds": 1693.4,
+  "finished": true
+}

@@ -1,0 +1,59 @@
+================================================================
+  Phase 1B · Step 3 — Baseline Comparison
+================================================================
+  shard      : /home/uceems7/Darwin/waymo/data/validation.tfrecord-00000-of-00150
+  scenarios  : 15
+  baselines  : log_replay, constant_velocity, rule_based
+  output dir : /home/uceems7/Darwin/waymo/results/baselines
+================================================================
+scenarios:   0%|          | 0/15 [00:00<?, ?it/s]                                                 scenarios:   0%|          | 0/15 [00:27<?, ?it/s]                                                 scenarios:   0%|          | 0/15 [00:54<?, ?it/s]                                                 scenarios:   0%|          | 0/15 [01:58<?, ?it/s]scenarios:   7%|▋         | 1/15 [01:58<27:36, 118.31s/it]                                                          scenarios:   7%|▋         | 1/15 [02:34<27:36, 118.31s/it]                                                          scenarios:   7%|▋         | 1/15 [03:12<27:36, 118.31s/it]                                                          scenarios:   7%|▋         | 1/15 [05:31<27:36, 118.31s/it]scenarios:  13%|█▎        | 2/15 [05:31<37:45, 174.29s/it]                                                          scenarios:  13%|█▎        | 2/15 [07:28<37:45, 174.29s/it]                                                          scenarios:  13%|█▎        | 2/15 [09:22<37:45, 174.29s/it]                                                          scenarios:  13%|█▎        | 2/15 [13:09<37:45, 174.29s/it]scenarios:  20%|██        | 3/15 [13:09<1:00:43, 303.60s/it]                                                            scenarios:  20%|██        | 3/15 [13:24<1:00:43, 303.60s/it]                                                            scenarios:  20%|██        | 3/15 [13:39<1:00:43, 303.60s/it]                                                            scenarios:  20%|██        | 3/15 [15:11<1:00:43, 303.60s/it]scenarios:  27%|██▋       | 4/15 [15:11<42:32, 232.08s/it]                                                            scenarios:  27%|██▋       | 4/15 [15:59<42:32, 232.08s/it]                                                          scenarios:  27%|██▋       | 4/15 [16:45<42:32, 232.08s/it]                                                          scenarios:  27%|██▋       | 4/15 [18:00<42:32, 232.08s/it]scenarios:  33%|███▎      | 5/15 [18:00<34:53, 209.40s/it]                                                          scenarios:  33%|███▎      | 5/15 [19:15<34:53, 209.40s/it]                                                          scenarios:  33%|███▎      | 5/15 [20:29<34:53, 209.40s/it]                                                          scenarios:  33%|███▎      | 5/15 [22:49<34:53, 209.40s/it]scenarios:  40%|████      | 6/15 [22:49<35:27, 236.34s/it]                                                          scenarios:  40%|████      | 6/15 [23:37<35:27, 236.34s/it]                                                          scenarios:  40%|████      | 6/15 [24:24<35:27, 236.34s/it]                                                          scenarios:  40%|████      | 6/15 [28:04<35:27, 236.34s/it]scenarios:  47%|████▋     | 7/15 [28:04<34:55, 261.96s/it]                                                          scenarios:  47%|████▋     | 7/15 [28:47<34:55, 261.96s/it]                                                          scenarios:  47%|████▋     | 7/15 [29:29<34:55, 261.96s/it]                                                          scenarios:  47%|████▋     | 7/15 [35:30<34:55, 261.96s/it]scenarios:  53%|█████▎    | 8/15 [35:30<37:24, 320.64s/it]                                                          scenarios:  53%|█████▎    | 8/15 [37:15<37:24, 320.64s/it]                                                          scenarios:  53%|█████▎    | 8/15 [39:03<37:24, 320.64s/it]                                                          scenarios:  53%|█████▎    | 8/15 [49:32<37:24, 320.64s/it]scenarios:  60%|██████    | 9/15 [49:32<48:22, 483.75s/it]                                                          scenarios:  60%|██████    | 9/15 [51:12<48:22, 483.75s/it]                                                          scenarios:  60%|██████    | 9/15 [52:51<48:22, 483.75s/it]                                                          scenarios:  60%|██████    | 9/15 [58:05<48:22, 483.75s/it]scenarios:  67%|██████▋   | 10/15 [58:05<41:02, 492.59s/it]                                                           scenarios:  67%|██████▋   | 10/15 [58:14<41:02, 492.59s/it]                                                           scenarios:  67%|██████▋   | 10/15 [58:23<41:02, 492.59s/it]                                                           scenarios:  67%|██████▋   | 10/15 [58:38<41:02, 492.59s/it]scenarios:  73%|███████▎  | 11/15 [58:38<23:27, 351.98s/it]                                                           scenarios:  73%|███████▎  | 11/15 [1:01:04<23:27, 351.98s/it]                                                             scenarios:  73%|███████▎  | 11/15 [1:03:30<23:27, 351.98s/it]                                                             scenarios:  73%|███████▎  | 11/15 [1:26:09<23:27, 351.98s/it]scenarios:  80%|████████  | 12/15 [1:26:09<37:21, 747.13s/it]                                                             scenarios:  80%|████████  | 12/15 [1:28:41<37:21, 747.13s/it]                                                             scenarios:  80%|████████  | 12/15 [1:31:12<37:21, 747.13s/it]                                                             scenarios:  80%|████████  | 12/15 [1:40:05<37:21, 747.13s/it]scenarios:  87%|████████▋ | 13/15 [1:40:05<25:48, 774.23s/it]                                                             scenarios:  87%|████████▋ | 13/15 [1:40:38<25:48, 774.23s/it]                                                             scenarios:  87%|████████▋ | 13/15 [1:41:10<25:48, 774.23s/it]                                                             scenarios:  87%|████████▋ | 13/15 [1:44:58<25:48, 774.23s/it]scenarios:  93%|█████████▎| 14/15 [1:44:58<10:28, 628.61s/it]                                                             scenarios:  93%|█████████▎| 14/15 [1:45:17<10:28, 628.61s/it]                                                             scenarios:  93%|█████████▎| 14/15 [1:45:37<10:28, 628.61s/it]                                                             scenarios:  93%|█████████▎| 14/15 [1:47:08<10:28, 628.61s/it]scenarios: 100%|██████████| 15/15 [1:47:08<00:00, 478.46s/it]scenarios: 100%|██████████| 15/15 [1:47:08<00:00, 428.57s/it]
+  [log_replay] b85e1bd6: metametric=0.863 (27.4s)
+  [constant_velocity] b85e1bd6: metametric=0.792 (26.7s)
+  [rule_based] b85e1bd6: metametric=0.307 (64.2s)
+  [log_replay] 4d82fec9: metametric=0.890 (36.4s)
+  [constant_velocity] 4d82fec9: metametric=0.248 (37.4s)
+  [rule_based] 4d82fec9: metametric=0.346 (139.7s)
+  [log_replay] bbc29ed5: metametric=0.825 (116.2s)
+  [constant_velocity] bbc29ed5: metametric=0.463 (114.9s)
+  [rule_based] bbc29ed5: metametric=0.393 (226.4s)
+  [log_replay] e62aa413: metametric=0.860 (15.3s)
+  [constant_velocity] e62aa413: metametric=0.533 (15.4s)
+  [rule_based] e62aa413: metametric=0.482 (91.7s)
+  [log_replay] 75ae7077: metametric=0.878 (47.3s)
+  [constant_velocity] 75ae7077: metametric=0.765 (46.8s)
+  [rule_based] 75ae7077: metametric=0.363 (75.0s)
+  [log_replay] 8648f5e7: metametric=0.859 (74.3s)
+  [constant_velocity] 8648f5e7: metametric=0.278 (74.4s)
+  [rule_based] 8648f5e7: metametric=0.453 (139.9s)
+  [log_replay] b3d21f3e: metametric=0.827 (47.7s)
+  [constant_velocity] b3d21f3e: metametric=0.417 (47.6s)
+  [rule_based] b3d21f3e: metametric=0.409 (219.5s)
+  [log_replay] 6674063a: metametric=0.655 (42.9s)
+  [constant_velocity] 6674063a: metametric=0.834 (42.6s)
+  [rule_based] 6674063a: metametric=0.370 (360.8s)
+  [log_replay] 52dafd68: metametric=0.599 (105.4s)
+  [constant_velocity] 52dafd68: metametric=0.363 (107.5s)
+  [rule_based] 52dafd68: metametric=0.506 (629.5s)
+  [log_replay] c95a61d1: metametric=0.616 (99.5s)
+  [constant_velocity] c95a61d1: metametric=0.104 (98.6s)
+  [rule_based] c95a61d1: metametric=0.382 (314.2s)
+  [log_replay] 923a0c6b: metametric=0.786 (9.3s)
+  [constant_velocity] 923a0c6b: metametric=0.453 (8.9s)
+  [rule_based] 923a0c6b: metametric=0.470 (14.9s)
+  [log_replay] 6331adf4: metametric=0.869 (146.1s)
+  [constant_velocity] 6331adf4: metametric=0.525 (146.3s)
+  [rule_based] 6331adf4: metametric=0.424 (1358.5s)
+  [log_replay] cc958931: metametric=0.548 (151.7s)
+  [constant_velocity] cc958931: metametric=0.148 (151.5s)
+  [rule_based] cc958931: metametric=0.328 (533.4s)
+  [log_replay] 7c6ac47c: metametric=0.811 (32.1s)
+  [constant_velocity] 7c6ac47c: metametric=0.359 (32.0s)
+  [rule_based] 7c6ac47c: metametric=0.388 (228.0s)
+  [log_replay] 8d0ef6b1: metametric=0.908 (19.4s)
+  [constant_velocity] 8d0ef6b1: metametric=0.841 (19.6s)
+  [rule_based] 8d0ef6b1: metametric=0.423 (91.5s)
+
+Wrote /home/uceems7/Darwin/waymo/results/baselines/baseline_comparison.csv  (45 rows)
+Wrote /home/uceems7/Darwin/waymo/results/baselines/baseline_summary.md
+
+Done in 6428.6s.

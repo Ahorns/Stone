@@ -1,11 +1,14 @@
-# SimAgents — WOSAC Research Plan
+# SimAgents — WOSAC Research Plan V2
 
+## 更新
+1. 更新了Phase1的代码
+2. 更新了一下PPT,加了一页有关Phase1-step2的结果,你可以和老师说,你现在就正在做这一步,学习waymo官方给的tutorial.
 
 ## Suggestions:
 
 ### Stpe1
-整个架构先看plan.md(包括appedix1.md),里面有比较详细地介绍整个竞赛是在做什么,你需要看什么文献如果开始做(这次开会都没必要看),你应该如何入手.
-(在vscode里面)
+整个架构先看docs/plan.md(包括appendix1.md),里面有比较详细地介绍整个竞赛是在做什么,你需要看什么文献如果开始做(这次开会都没必要看),你应该如何入手.
+>(**在vscode里面按ctrl+shift+v开阅读md文件视图**)
 ### Step2 
 之后看slide_guide.md,这个是整个汇报的推荐思路,可以结合着PPT文件一起看,PPT在slides/dist/WOSAC_Research_Plan.pptx.
 
@@ -42,7 +45,9 @@ SimAgents/
 │   └── qa/                Slide thumbnails (slide-01.jpg … slide-16.jpg) for visual review
 │
 ├── .agents/skills/pptx/   Anthropic pptx skill (auto-loaded by Claude Code in this folder)
+├── Phase1_showcase/       主要说了一下Phase1需要做什么,这是一个已经完成了的版本,你之后可以自己做一版.
 └── skills-lock.json       Skill version pin
+
 ```
 
 ## How to get the slides

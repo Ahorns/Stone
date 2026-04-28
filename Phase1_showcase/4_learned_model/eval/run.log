@@ -1,0 +1,29 @@
+================================================================
+  Phase 1B · Step 3 — Baseline Comparison
+================================================================
+  shard      : /home/uceems7/Darwin/waymo/data/validation.tfrecord-00000-of-00150
+  scenarios  : 5
+  baselines  : log_replay, constant_velocity, learned
+  output dir : /home/uceems7/Darwin/waymo/results/step4/eval
+================================================================
+scenarios:   0%|          | 0/5 [00:00<?, ?it/s]                                                  [log_replay] b85e1bd6: metametric=0.863 (27.6s)
+scenarios:   0%|          | 0/5 [00:27<?, ?it/s]                                                  [constant_velocity] b85e1bd6: metametric=0.792 (27.2s)
+scenarios:   0%|          | 0/5 [00:54<?, ?it/s]                                                  [learned] b85e1bd6: metametric=0.277 (105.0s)
+scenarios:   0%|          | 0/5 [02:39<?, ?it/s]scenarios:  20%|██        | 1/5 [02:39<10:39, 159.84s/it]                                                           [log_replay] 4d82fec9: metametric=0.890 (38.3s)
+scenarios:  20%|██        | 1/5 [03:18<10:39, 159.84s/it]                                                           [constant_velocity] 4d82fec9: metametric=0.248 (38.8s)
+scenarios:  20%|██        | 1/5 [03:56<10:39, 159.84s/it]                                                           [learned] 4d82fec9: metametric=0.156 (315.0s)
+scenarios:  20%|██        | 1/5 [09:12<10:39, 159.84s/it]scenarios:  40%|████      | 2/5 [09:12<14:49, 296.51s/it]                                                           [log_replay] bbc29ed5: metametric=0.825 (125.1s)
+scenarios:  40%|████      | 2/5 [11:17<14:49, 296.51s/it]                                                           [constant_velocity] bbc29ed5: metametric=0.463 (123.2s)
+scenarios:  40%|████      | 2/5 [13:20<14:49, 296.51s/it]                                                           [learned] bbc29ed5: metametric=0.196 (392.7s)
+scenarios:  40%|████      | 2/5 [19:53<14:49, 296.51s/it]scenarios:  60%|██████    | 3/5 [19:53<15:07, 453.86s/it]                                                           [log_replay] e62aa413: metametric=0.860 (15.5s)
+scenarios:  60%|██████    | 3/5 [20:08<15:07, 453.86s/it]                                                           [constant_velocity] e62aa413: metametric=0.533 (15.4s)
+scenarios:  60%|██████    | 3/5 [20:24<15:07, 453.86s/it]                                                           [learned] e62aa413: metametric=0.175 (244.4s)
+scenarios:  60%|██████    | 3/5 [24:28<15:07, 453.86s/it]scenarios:  80%|████████  | 4/5 [24:28<06:23, 383.40s/it]                                                           [log_replay] 75ae7077: metametric=0.878 (49.0s)
+scenarios:  80%|████████  | 4/5 [25:17<06:23, 383.40s/it]                                                           [constant_velocity] 75ae7077: metametric=0.765 (48.8s)
+scenarios:  80%|████████  | 4/5 [26:06<06:23, 383.40s/it]                                                           [learned] 75ae7077: metametric=0.227 (127.0s)
+scenarios:  80%|████████  | 4/5 [28:13<06:23, 383.40s/it]scenarios: 100%|██████████| 5/5 [28:13<00:00, 326.23s/it]scenarios: 100%|██████████| 5/5 [28:13<00:00, 338.67s/it]
+
+Wrote /home/uceems7/Darwin/waymo/results/step4/eval/baseline_comparison.csv  (15 rows)
+Wrote /home/uceems7/Darwin/waymo/results/step4/eval/baseline_summary.md
+
+Done in 1693.4s.
