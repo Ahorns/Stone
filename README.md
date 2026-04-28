@@ -26,9 +26,9 @@ Research plan and slide deck for the **Waymo Open Sim Agents Challenge (WOSAC)**
 ```
 SimAgents/
 ├── docs/                  Written research notes (Markdown)
-│   ├── plan.md            Research plan
-│   ├── slide-guide.md     Slide-by-slide content guide (source of truth for the deck)
-│   └── appendix-1.md      Glossary + key reading list
+│   ├── plan.md            Research plan  这个是整个项目的简单介绍
+│   ├── slide-guide.md     Slide-by-slide content guide (source of truth for the deck)  这个是ppt的架构介绍，也是我给claude的提示词
+│   └── appendix-1.md      Glossary + key reading list 和plan一起看
 │
 ├── slides/                Everything needed to build the presentation
 │   ├── build.js           pptxgenjs build script — generates the .pptx
@@ -39,65 +39,27 @@ SimAgents/
 │   │   ├── home-anim-transparent.webm     Waymo homepage animation (optional)
 │   │   ├── waymo-logo.svg                 Waymo Open Dataset wordmark
 │   │   └── processed/                     PNG / recoloured versions ready for PowerPoint
-│   ├── dist/              Build outputs
+│   ├── dist/              Build outputs **PPT在这里**
 │   │   ├── WOSAC_Research_Plan.pptx
 │   │   └── WOSAC_Research_Plan.pdf
 │   └── qa/                Slide thumbnails (slide-01.jpg … slide-16.jpg) for visual review
 │
-├── .agents/skills/pptx/   Anthropic pptx skill (auto-loaded by Claude Code in this folder)
+├── .agents/skills/pptx/   Anthropic pptx skill (auto-loaded by Claude Code in this folder) 这个就是skill的包
 ├── Phase1_showcase/       主要说了一下Phase1需要做什么,这是一个已经完成了的版本,你之后可以自己做一版.
 └── skills-lock.json       Skill version pin
 
 ```
 
 ## How to get the slides
-
+就很简单 我把这个pptx的skill都放进来了，你让claude直接读，他就知道怎么生成ppt。
 ### Just open the file
-
+这个是ppt的位置
 ```
-slides/dist/WOSAC_Research_Plan.pptx
+slides/dist/WOSAC_Research_Plan.pptx（现在有第二版，主要就是多了一页显示phase1，step2的结果）
 ```
-
-Open in PowerPoint or Keynote. The `demonstrate.gif` on Slide 4 animates during slideshow mode.
-
-### Rebuild from source
-
-After editing `slides/build.js`:
-
-```bash
-cd slides
-node build.js
-```
-
-Output is overwritten at `slides/dist/WOSAC_Research_Plan.pptx`.
-
-### Render PDF + thumbnails (for QA)
-
-```bash
-cd slides
-python3 ../.agents/skills/pptx/scripts/office/soffice.py \
-    --headless --convert-to pdf --outdir dist dist/WOSAC_Research_Plan.pptx
-pdftoppm -jpeg -r 110 dist/WOSAC_Research_Plan.pdf qa/slide
-```
-
-Produces `slides/dist/WOSAC_Research_Plan.pdf` and `slides/qa/slide-XX.jpg` per slide.
-
-## Editing flow
-
-1. Edit content in `docs/slide-guide.md` (the design / content source).
-2. Mirror the changes in `slides/build.js`.
-3. Run `node build.js` from `slides/`.
-4. Re-render thumbnails and visually check.
-
-## Dependencies
-
-- Node ≥ 18 with `pptxgenjs` (installed via `npm install` in `slides/`)
-- LibreOffice (`soffice`) — for PPTX → PDF conversion
-- Poppler (`pdftoppm`) — for PDF → JPG conversion
-- Python 3 + Pillow — used by helper scripts
 
 ## Deck overview (16 slides)
-
+PPT的架构
 | # | Title |
 |---|---|
 | 1 | Title / Meeting Objective |
