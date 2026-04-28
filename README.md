@@ -3,6 +3,7 @@
 ## 更新
 1. 更新了Phase1的代码
 2. 更新了一下PPT,加了一页有关Phase1-step2的结果,你可以和老师说,你现在就正在做这一步,学习waymo官方给的tutorial，当然也可以不说，那就用第一版。
+3. 上传了相关文献。
 
 ## Suggestions:
 
@@ -28,7 +29,8 @@ SimAgents/
 ├── docs/                  一开始读这个文档先
 │   ├── plan.md            Research plan  这个是整个项目的简单介绍
 │   ├── slide-guide.md     Slide-by-slide content guide (source of truth for the deck)  这个是ppt的架构介绍，也是我给claude的提示词
-│   └── appendix-1.md      Glossary + key reading list 和plan一起看
+│   └── appendix-1.md      Glossary + key reading list 和plan一起看。
+│   └── Reference Paper    第一次开会前，暂时不用读，等你真正开始做的时候读。
 │
 ├── slides/                Everything needed to build the presentation
 │   ├── build.js           pptxgenjs build script — generates the .pptx
