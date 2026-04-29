@@ -240,6 +240,14 @@ Agent-agent attention / graph neural network
 Stochastic latent variable / diffusion / autoregressive decoder
 Map constraint / collision-aware post-processing
 ```
+>要去学习这些模型,这些模型更重要!!!!!这下面的都是实习工作要求的重点能力
+```
+Adversarial Agents 
+多智能体博弈
+Latent Variable Modeling
+潜在变量建模
+Hidden Markov Models (隐马尔可夫模型) 和 Probabilistic Modelling (概率建模)
+```
 
 ### Step 6：针对评价指标优化
 
